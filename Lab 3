@@ -1,0 +1,15 @@
+#include<stdio.h> 
+int main() 
+{ 
+int n,i,toplam=0; 
+printf("N rakamını girin: " , n); 
+scanf("%d",&n); 
+for(i=1;i<=n;i++) 
+{ 
+  if(i%2==0) 
+    toplam=toplam+i*i;
+    
+    
+} 
+printf("karelerinin toplami: %d",toplam);
+} 
